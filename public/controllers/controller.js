@@ -37,7 +37,7 @@ myApp.controller('AppCtrl', ['$scope', "$http", function($scope, $http){
 			$scope.contact = response;
 		});
 
-	};
+	}; 
 
 	$scope.update = function() {
 		console.log($scope.contact._id);
